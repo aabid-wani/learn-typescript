@@ -3,7 +3,7 @@ import studentRoutes from './routes/student-routes';
 const app = express();
 app.use(express.json());
 app.use('/students', studentRoutes);
-const PORT = 3000;
+const PORT = 3000;  
 app.listen(PORT, () => {
     console.log(`Server is running on port http://localhost:${PORT}`);
 });
